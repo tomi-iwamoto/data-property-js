@@ -16,10 +16,10 @@ buttonOne.addEventListener('click', function () {
     let buttonOneData = buttonOne.dataset.number; 
 
     //I want to access the element with the same name in the id as the attribute of button one
-    let boxOne = document.getElementById(buttonOneData);
+    let highlightOne = document.getElementById(buttonOneData);
 
     //This will add the class of "show" to box one
-    boxOne.classList.add('show');
+    highlightOne.classList.add('show');
 
 })
 
@@ -29,9 +29,9 @@ buttonTwo.addEventListener('click', function () {
 
     let buttonTwoData = buttonTwo.dataset.number;
 
-    let boxTwo = document.getElementById(buttonTwoData);
+    let highlightTwo = document.getElementById(buttonTwoData);
 
-    boxTwo.classList.add('show');
+    highlightTwo.classList.add('show');
 
 })
 
